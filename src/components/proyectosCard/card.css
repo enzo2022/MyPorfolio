@@ -1,0 +1,46 @@
+.card{
+    border: 1px solid gray;
+    padding: 30px;
+    margin: auto auto 40px auto;
+    text-align: center;
+    
+}
+.img{
+  
+    width:1000px;
+    height:500px;
+
+}
+.h4{
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+    font-size: 1cm;
+}
+.span{
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+.div{
+    display: flex;
+    flex-direction: column;}
+
+
+    .info a+a{
+        margin-left: 30px; 
+    }
+
+
+
+
+
+
+    @media (max-width: 360px) {
+        
+        .img {
+          width: 100%;
+          height: auto; 
+        }
+      }
