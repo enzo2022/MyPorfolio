@@ -17,11 +17,12 @@
     font-size: 25px;
   }
   
-  @media (max-width: 360px){
-.text{
-  text-indent: 10px;
+  @media (max-width: 720px){
+.texto{
+  text-indent: 1px;
     font-size: 20px;
-    
+    text-align: center;
+   
 }
 
   }
