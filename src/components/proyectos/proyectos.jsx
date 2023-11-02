@@ -1,5 +1,5 @@
 import React from 'react';
-import Pi from '../../assets/videogame.png'
+import Pi from '../../assets/videoGame.png'
 import Card from '../proyectosCard/ProyectosCard';
 import Trivia from '../../assets/trivia.png'
 import './proyectos.css'
