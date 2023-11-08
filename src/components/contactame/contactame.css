@@ -167,8 +167,8 @@ input[type=text ], select, textarea {
       border-radius: 8px;
       cursor: pointer;
       float: none; /* Eliminado el flotado para centrar el botón en dispositivos móviles */
-      margin-top: 10px; /* Agregado margen superior para separar el botón de otros elementos */
-      font-size: 30px; /* Tamaño de fuente ajustado para dispositivos móviles */
+      margin-top: 5px; /* Agregado margen superior para separar el botón de otros elementos */
+      font-size: 25px; /* Tamaño de fuente ajustado para dispositivos móviles */
     }
     
     .container {

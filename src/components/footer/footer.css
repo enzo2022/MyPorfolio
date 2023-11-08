@@ -1,11 +1,11 @@
 .footer p{
   background: linear-gradient(60deg, #3498db, #a03ce7);
   text-indent: 50px;
-  text-align: justify;
+  text-align: center;
   letter-spacing: 7px;
   font-size: 25px;
-  width: 40%;
-  margin-left: 60px;
+ width: 80%;
+  margin-left: 10%;
   padding: 50px;
 }
 .redes a+a{
