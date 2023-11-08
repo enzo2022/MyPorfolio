@@ -21,7 +21,7 @@ export const ContactUs = () => {
   
   
   <div className="container"> 
-  <div><Navbar/></div>  
+  <Navbar/>
     <form ref={form} onSubmit={sendEmail}>
     <div className="row">
     <div className="col-25">
