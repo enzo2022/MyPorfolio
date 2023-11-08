@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './contactame.css'
+import Navbar from '../navbar/navbar';
 export const ContactUs = () => {
   const form = useRef();
 
@@ -16,11 +17,15 @@ export const ContactUs = () => {
   };
 
   return (
-    <div className="container"> 
+  
+  
+  
+  <div className="container"> 
+  <div><Navbar/></div>  
     <form ref={form} onSubmit={sendEmail}>
     <div className="row">
     <div className="col-25">
-      <label for="fname">Nombre</label>
+      <label className='label' for="fname">Nombre</label>
     </div>
     <div className="col-75">
       <input type="text" name="to_name" placeholder="Tú Nombre.."/>
@@ -28,7 +33,7 @@ export const ContactUs = () => {
   </div>
   <div className="row">
     <div className="col-25">
-      <label for="fname">Email</label>
+      <label className='label' for="fname">Email</label>
     </div>
     <div className="col-75">
       <input type="email" name="from_name" placeholder="Email.."/>
@@ -37,7 +42,7 @@ export const ContactUs = () => {
      
   <div className="row">
     <div className="col-25">
-      <label for="subject">Mensaje</label>
+      <label className='label' for="subject">Mensaje</label>
     </div>
     <div className="col-75">
       <textarea id="subject" name="message" placeholder="Tú mensaje.." ></textarea>
@@ -46,13 +51,13 @@ export const ContactUs = () => {
    
      
       
-      <div className="row">
+      <div className="rowSub">
     <input type="submit" value="Send"/>
   </div>
     </form>
     
 
-    <button className='button'>
+    {/* <button className='button'>
                 <a
                   href='./CVEnzoMonti.pdf'
                   download={'./CVEnzoMonti.pdf'}
@@ -61,7 +66,7 @@ export const ContactUs = () => {
                   // download="CVEnzoMonti.pdf"
                 >Descarga CV</a>
                 
-                </button>
+                </button> */}
     </div>
   );
 };

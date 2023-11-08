@@ -1,9 +1,77 @@
 .proyectos{
-    font-size: 45px;
-    font-weight: 700;
+    font-size: 55px;
+    font-weight: 700; background: linear-gradient(60deg,  #3498db, #a03ce7);
+    text-indent: 50px;
+    text-align: center;
+    letter-spacing: 7px;
+   
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+   padding: 50px;
+   
 }
 .proyectosText{
       text-align: center;
       letter-spacing: 7px;
       font-size: 25px;
+      font-size: 45px;
+      font-weight: 700; background: linear-gradient(60deg,  #3498db, #a03ce7);
+      text-indent: 50px;
+      text-align: center;
+      letter-spacing: 7px;
+      font-size: 25px;
+      width: 80%;
+      margin-left: 10%;
+     padding: 50px;
+}
+.fondoProyectos{
+    background-image: url(../../assets/proyectos.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+    position: absolute;
+}
+
+@media (max-width: 720px){
+
+    .proyectos {
+        font-size: 35px; /* Tamaño de fuente reducido para dispositivos móviles */
+        font-weight: 700;
+        background: linear-gradient(60deg, #3498db, #a03ce7);
+        text-indent: 20px; /* Reducida la sangría del texto */
+        text-align: center;
+        letter-spacing: 3px; /* Reducido el espaciado entre letras */
+        width: 80%;
+        margin: 5% auto 0; /* Alineado verticalmente al centro y centrado horizontalmente */
+        padding: 20px; /* Reducido el relleno para dispositivos móviles */
+      }
+      
+      .proyectosText {
+        text-align: center;
+        letter-spacing: 3px; /* Reducido el espaciado entre letras */
+        font-size: 25px; /* Tamaño de fuente ajustado */
+        font-weight: 700;
+        background: linear-gradient(60deg, #3498db, #a03ce7);
+        text-indent: 20px; /* Reducida la sangría del texto */
+        text-align: center;
+        width: 80%;
+        margin: 0 auto; /* Centrado horizontalmente */
+        padding: 20px; /* Reducido el relleno para dispositivos móviles */
+      }
+      
+      .fondoProyectos {
+        background-image: url(../../assets/proyectos.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        height: auto;
+        width: 100%;
+        position: relative; /* Cambiado a "relative" para que el contenido fluya dentro del contenedor */
+      }
+      
 }

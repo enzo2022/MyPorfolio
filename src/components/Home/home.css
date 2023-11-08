@@ -1,0 +1,100 @@
+.miNombre {
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(86, 76, 175);
+  
+}
+
+.textoHome {
+  background: linear-gradient(60deg,  #3498db, #a03ce7);
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 7px;
+  font-size: 25px;
+  width: 40%;
+  margin-left: 60px;
+ padding: 50px;
+
+  
+}
+.fondo{
+  background-image: url(../../assets/foto.png);
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+  position: absolute;
+}
+.text-container {
+  height: 240px; /* Establece la altura fija que desees */
+  overflow: hidden;
+  padding: 60px; /* Para recortar el contenido que excede la altura fija */
+}
+.text-container p{
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(7, 5, 30);
+  background: linear-gradient(60deg, #3498db, #a03ce7);
+  letter-spacing: 7px;
+  font-size: 25px;
+  text-indent: 50px;
+  width: 60%;
+  border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 720px){
+  
+  .miNombre {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(86, 76, 175);
+  }
+  
+  .textoHome, .text-container p {
+    background: linear-gradient(60deg, #3498db, #a03ce7);
+    text-indent: 20px;
+    /* text-align: justify; */
+    letter-spacing: 3px;
+    font-size: 18px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .fondo {
+    /* background-image: url(../../assets/foto.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%; */
+    position:absolute;
+  }
+  
+  .textoHome {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+  }
+  
+  .text-container p {
+    text-transform: uppercase;
+    color: rgb(7, 5, 30);
+    text-indent: 20px;
+    border-radius: 4px;
+  
+  }
+  
+}

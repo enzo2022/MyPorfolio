@@ -1,8 +1,33 @@
 .footer p{
-    text-align: center;
-    letter-spacing: 7px;
-    font-size: 25px;
+  background: linear-gradient(60deg, #3498db, #a03ce7);
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 7px;
+  font-size: 25px;
+  width: 40%;
+  margin-left: 60px;
+  padding: 50px;
 }
 .redes a+a{
-    margin-left: 30px; 
+    margin-left: 60px; 
 }
+
+@media (max-width: 720px){
+
+  .footer p {
+    background: linear-gradient(60deg, #3498db, #a03ce7);
+    text-indent: 20px;
+    text-align: center;
+    /* letter-spacing: 3px; */
+    font-size: 18px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .redes a + a {
+    margin-left: 20%; /* Reducido el margen para dispositivos móviles */
+  }
+  
+}
+

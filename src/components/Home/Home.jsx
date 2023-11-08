@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
-import { Skills } from "../skills/skills";
-import './banner.css'
+import './home.css'
+import Footer from "../footer/footer";
 import Navbar from "../navbar/navbar";
 
-export default function Banner() {
+export default function Home(){
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
     const [text, setText] = useState('');
@@ -44,20 +44,22 @@ export default function Banner() {
             setIndex(prevIndex => prevIndex + 1);
         }
     }
-
-    return (
-        <div className="fondobanner">
-      <Navbar/>
-
-        <div>
-            <p className="texto">
-                Soy un apasionado del mate, la vida en el campo y la música cristiana. Disfruto aplicar mi creatividad para abordar desafíos complejos. Gracias a mi capacidad de aprendizaje autodidacta, me mantengo actualizado en el dinámico mundo de la programación de manera eficiente y efectiva.</p>
+    return(
+ <div>
+    <div> </div>
+       
+        <div className="fondo">
+       <Navbar/>
+        <div className="text-container">
+    <p>Hola!!</p> 
+    <p>Mi Nombre Enzo </p>
+    <p>{text}</p>
+    </div>
+    <div className="fondotext "></div>
+ <p className="textoHome">Soy Enzo, un programador apasionado con experiencia en el desarrollo de aplicaciones web. Mi especialidad es el desarrollo full-stack, donde uso tecnologías como JavaScript, React y Node.js. También tengo sólidos conocimientos en bases de datos SQL y NoSQL, lo que me permite crear soluciones escalables y robustas.
+            </p>
+            <Footer />
         </div>
-
-        <div>
-            <Skills/>
         </div>
-       </div>
-     
     )
 }

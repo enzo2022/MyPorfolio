@@ -3,6 +3,7 @@ import Pi from '../../assets/videoGame.png'
 import Card from '../proyectosCard/ProyectosCard';
 import Trivia from '../../assets/trivia.png'
 import './proyectos.css'
+import Navbar from '../navbar/navbar';
 
 export default function Proyectos(){
   
@@ -28,7 +29,9 @@ export default function Proyectos(){
         
         
     return(
-        <div>
+      <div> 
+        <div className='fondoProyectos'>
+         <Navbar/>
 <h2 className='proyectos'>Proyectos</h2>
 <p className='proyectosText'>Estas son algunos de mis proyectos</p>
 {
@@ -43,6 +46,6 @@ export default function Proyectos(){
                           }
 
          
-        </div>
+        </div></div>
     )
 }

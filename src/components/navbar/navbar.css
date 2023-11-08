@@ -1,0 +1,70 @@
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    background: linear-gradient(60deg, #3498db, #a03ce7);
+    z-index: 1000; 
+    
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(15, 11, 11);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    letter-spacing: 7px;
+    font-size: 25px;
+    
+  }
+  
+  li a:hover:not(.active) {
+    background-color:#164e74;
+  }
+  
+  .active {
+    background: linear-gradient(60deg, #164e74, #a03ce7);
+  }
+
+
+ @media (max-width: 720px) {
+  .ul {
+    text-align: center;
+    position: relative;
+  display: inline-grid;
+  border-radius: 4px;
+  
+  }
+
+  li {
+    display: block;
+    
+  }
+
+  li a {
+    display: block;
+    color: rgb(15, 11, 11);
+    text-align: center;
+    padding: 14px 0;
+    text-decoration: none;
+    letter-spacing: 7px;
+    font-size: 25px;
+ 
+  }
+
+  li a:hover:not(.active) {
+    background-color: #164e74;
+  }
+}
+
+.active {
+  background: linear-gradient(60deg, #164e74, #a03ce7);
+}

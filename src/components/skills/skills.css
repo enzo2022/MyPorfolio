@@ -3,7 +3,7 @@
     position: relative;
   }
   .skill-bx {
-    background: gainsboro;
+    
     border-radius: 44px;
     text-align: center;
     padding: 60px 50px;
@@ -12,15 +12,44 @@
   .skill h2 {
       font-size: 45px;
       font-weight: 700;
+      background: linear-gradient(60deg,  #3498db, #a03ce7);
+  text-indent: 50px;
+  text-align: center;
+  letter-spacing: 7px;
+  font-size: 25px;
+  width: 80%;
+  margin-left:10%;
+ padding: 50px;
   }
   .skill p {
+    background: linear-gradient(60deg,  #3498db, #a03ce7);
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 7px;
+  font-size: 25px;
+  width: 80%;
+  margin-left:10%;
+ padding: 50px;
     text-align: center;
     letter-spacing: 7px;
     font-size: 25px;
     
   }
+  .tecnologias{
+    background: linear-gradient(60deg,  #3498db, #a03ce7);
+    text-indent: 50px;
+    text-align:center;
+    letter-spacing: 7px;
+    font-size: 25px;
+   /* padding: 50px; */
+      text-align: center;
+      letter-spacing: 7px;
+      /* font-size: 25px; */
+
+  }
   .skill-slider {
     width: 80%;
+    
     margin: 0 auto;
     position: relative;
   }
@@ -36,4 +65,65 @@
   .item img {
     width: 100%;
     height: auto;
+  }
+
+
+  @media (max-width: 720px){
+
+.skill {
+  padding: 20px 0; /* Reducido el relleno en la parte superior e inferior */
+  position: relative;
+}
+
+.skill-bx {
+  border-radius: 10px; /* Reducido el radio del borde para hacerlo menos prominente */
+  text-align: center;
+  padding: 30px; /* Reducido el relleno */
+  margin-top: 0; /* Eliminado el margen superior */
+}
+
+.skill h2 {
+  font-size: 30px; /* Tamaño de fuente reducido para dispositivos móviles */
+  font-weight: 700;
+  background: linear-gradient(60deg, #3498db, #a03ce7);
+  text-indent: 20px; /* Reducida la sangría del texto */
+  text-align: center;
+  letter-spacing: 3px; /* Reducido el espaciado entre letras */
+  width: 80%;
+  margin: 0 auto; /* Centrado horizontalmente */
+  padding: 20px; /* Reducido el relleno */
+}
+
+.skill p, .tecnologias {
+  background: linear-gradient(60deg, #3498db, #a03ce7);
+  text-indent: 20px; /* Reducida la sangría del texto */
+  text-align: justify;
+  letter-spacing: 3px; /* Reducido el espaciado entre letras */
+  font-size: 18px; /* Tamaño de fuente reducido para dispositivos móviles */
+  width: 80%;
+  margin: 0 auto; /* Centrado horizontalmente */
+  padding: 20px; /* Reducido el relleno */
+  text-align: center;
+}
+
+.skill-slider {
+  width: 100%; /* Cambiado el ancho al 100% para ocupar toda la anchura disponible */
+  margin: 0 auto;
+  position: relative;
+}
+
+.background-image-left {
+  top: 0; /* Alineado en la parte superior del contenedor */
+  position: absolute;
+  bottom: 0;
+  width: 100%; /* Cambiado el ancho al 100% para ocupar todo el ancho disponible */
+  z-index: -4;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+}
+
+
   }

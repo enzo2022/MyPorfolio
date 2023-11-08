@@ -12,20 +12,34 @@
 
 }
 .h4{
+    font-size: 55px;
+    font-weight: 700; background: linear-gradient(60deg,  #3498db, #a03ce7);
+    text-indent: 50px;
+    text-align: center;
+    letter-spacing: 7px;
     text-align: center;
     text-transform: uppercase;
-    color: #4CAF50;
+    
     font-size: 1cm;
 }
 .span{
+   
+    font-weight: 700; 
+    background: linear-gradient(60deg,  #3498db, #a03ce7);
     text-indent: 50px;
-    text-align: justify;
+    text-align: center;
+ 
+   
+    text-transform: uppercase;
+  
+    
     letter-spacing: 3px;
     font-size: 25px;
 }
 .div{
     display: flex;
-    flex-direction: column;}
+    flex-direction: column;
+    background: linear-gradient(60deg,  #3498db, #a03ce7);}
 
 
     .info a+a{

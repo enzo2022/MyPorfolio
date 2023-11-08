@@ -1,28 +1,48 @@
-.div1 {
-    border: 1px solid gray;
-    padding: 30px;
-    margin: auto auto 40px auto;
-  }
+
   
-  .miNombre {
-    text-align: center;
-    text-transform: uppercase;
-    color: #4CAF50;
+  .fondobanner{
+    background-image: url(../../assets/sobreMi.jpg);
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+    position: absolute;
+
   }
-  
-  .texto {
-    text-indent: 50px;
-    text-align: justify;
-    letter-spacing: 7px;
-    font-size: 25px;
-  }
-  
-  @media (max-width: 720px){
 .texto{
-  text-indent: 1px;
-    font-size: 20px;
-    text-align: center;
-   
+  background: linear-gradient(60deg,  #3498db, #a03ce7);
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 7px;
+  font-size: 25px;
+  width: 80%;
+  margin-left:10%;
+ padding: 50px;}
+
+  @media (max-width: 720px){
+
+.fondobanner {
+  background-image: url(../../assets/sobreMi.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+  position: absolute;
 }
 
+.texto {
+  background: linear-gradient(60deg, #3498db, #a03ce7);
+  text-indent: 20px;
+  text-align: justify;
+  letter-spacing: 3px;
+  font-size: 18px;
+  width: 100%;
+  margin: 10px auto;
+  padding: 20px;
+}
   }
